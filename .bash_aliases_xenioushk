@@ -10,6 +10,10 @@ alias ga='git add .'
 alias gb='git branch'
 alias gv='git --version'
 
+#Clear gitignore cache.
+
+alias gcc="git_clear_cache"
+
 #Commit 
 
 alias gac='ga && gc'
@@ -51,6 +55,17 @@ alias cpb='composer dumpautload -o' #Composer Build.
 
 
 #callback functions.
+
+
+git_clear_cache() {
+
+if [ -z "$1" ]; then
+  echo "Provide the full path of the folder."
+else 
+  git rm -r --cached "$1";
+fi
+
+};
 
 git_commit() {
 
