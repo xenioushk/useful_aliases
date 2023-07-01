@@ -31,12 +31,11 @@ alias gp='git push'
 alias gpl='git pull'
 
 ## NPM ##
-
+alias npv='npm --version'
 alias npi='npm install'
 alias npu='npm update'
 alias nps='npm run start'
 alias npb='npm run build'
-
 
 ## Composer ##
 
