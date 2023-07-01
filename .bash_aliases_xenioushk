@@ -21,8 +21,8 @@ alias gc='git_commit'
 
 #Checkout
 
-alias gco='git_checkout_branch'
-alias gcon='git_checkout_new_branch'
+alias gcb='git_checkout_branch'
+alias gcnb='git_checkout_new_branch'
 alias gcs='git checkout staging'
 alias gcm='git checkout main'
 alias gcp='git checkout production'
