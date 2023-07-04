@@ -36,7 +36,9 @@ alias gmb='git_merge_branch'
 
 #Merge
 
-alias gp='git push'
+alias gpm='git push origin main'
+alias gps='git push origin staging'
+alias gpp='git push origin production'
 alias gpl='git pull'
 
 ## NPM ##
@@ -45,6 +47,7 @@ alias npi='npm install'
 alias npu='npm update'
 alias nps='npm run start'
 alias npb='npm run build'
+alias npw='npm run watch'
 
 ## Composer ##
 
