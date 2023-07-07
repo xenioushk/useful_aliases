@@ -53,8 +53,8 @@ alias npw='npm run watch'
 
 alias cpi='composer install'
 alias cpu='composer update'
-alias cpd='composer dumpautload'
-alias cpb='composer dumpautload -o' #Composer Build.
+alias cpd='composer dumpautoload'
+alias cpb='composer dumpautoload -o' #Composer Build.
 
 
 #callback functions.
