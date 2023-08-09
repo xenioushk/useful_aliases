@@ -41,6 +41,10 @@ alias gps='git push origin staging'
 alias gpp='git push origin production'
 alias gpl='git pull'
 
+#Merge & Push
+alias gds='gcs && gmm && gps'
+alias gdp='gcp && gmm && gpp'
+
 ## NPM ##
 alias npv='npm --version'
 alias npi='npm install'
@@ -56,7 +60,11 @@ alias cpu='composer update'
 alias cpd='composer dumpautoload'
 alias cpb='composer dumpautoload -o' #Composer Build.
 
+#Gutenberg
 
+alias npf='npm run format'
+alias nplc='npm run lint:css'
+alias nplj='npm run lint:js'
 #callback functions.
 
 
