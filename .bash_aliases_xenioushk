@@ -39,7 +39,12 @@ alias gmb='git_merge_branch'
 alias gpm='git push origin main'
 alias gps='git push origin staging'
 alias gpp='git push origin production'
-alias gpl='git pull'
+
+#Pull
+
+alias gpom='git pull origin main'
+alias gpos='git pull origin staging'
+alias gpop='git pull origin production'
 
 #Merge & Push
 alias gds='gcs && gmm && gps'
