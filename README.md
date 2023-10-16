@@ -1,1 +1,1 @@
-# useful_aliases
+# Useful Bash Aliases
