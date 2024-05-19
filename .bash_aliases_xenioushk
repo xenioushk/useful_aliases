@@ -5,6 +5,8 @@ alias eb="exec bash"
 
 ###GIT ALIASES###
 
+alias gl='git log'
+alias glo='git log --oneline'
 alias gs='git status'
 alias ga='git add .'
 alias gb='git branch'
