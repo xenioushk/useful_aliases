@@ -1,7 +1,12 @@
-
 ###General###
 alias cls="clear"
 alias eb="exec bash"
+alias ll="ls -la"
+
+###DOCKER###
+alias dcu='docker-compose up -d'
+alias dcd='docker-compose down'
+alias dps='docker ps'
 
 ###GIT ALIASES###
 
@@ -13,7 +18,7 @@ alias gb='git branch'
 alias gv='git --version'
 alias grv='git remote -v'
 
-#Clear gitignore cache.
+#Clear gitignore cache. 
 
 alias gcc="git_clear_cache"
 
