@@ -50,6 +50,7 @@ alias gpp='git push origin production'
 
 #Pull
 
+alias gpoms='git pull origin master'
 alias gpom='git pull origin main'
 alias gpos='git pull origin staging'
 alias gpop='git pull origin production'
