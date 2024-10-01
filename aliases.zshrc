@@ -122,7 +122,7 @@ git_checkout_branch() {
   if [ -z "$1" ]; then
     echo "Provide the branch name."
   else
-    branchName=$(echo "${1// /_}" | tr '[:upper:]' '[:lower:]')
+    #branchName=$(echo "${1// /_}" | tr '[:upper:]' '[:lower:]')
     git checkout "$1";
   fi
 
@@ -134,8 +134,8 @@ git_checkout_new_branch() {
   if [ -z "$1" ]; then
     echo "Provide the new branch name."
   else
-    branchName=$(echo "${1// /_}" | tr '[:upper:]' '[:lower:]')
-    git checkout -b $branchName;
+    #branchName=$(echo "${1// /_}" | tr '[:upper:]' '[:lower:]')
+    git checkout -b "$1";
   fi
 
 };
