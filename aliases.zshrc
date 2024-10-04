@@ -10,8 +10,6 @@ alias dps='docker ps'
 
 ###GIT ALIASES###
 
-alias gl='git log'
-alias glo='git log --oneline'
 alias gs='git status'
 alias ga='git add .'
 alias gb='git branch'
@@ -43,17 +41,21 @@ alias gmp='git merge production'
 alias gmb='git_merge_branch'
 
 #Push
-
+alias gp ='git push'
 alias gpm='git push origin main'
 alias gps='git push origin staging'
 alias gpp='git push origin production'
 
 #Pull
-
+alias gpl='git pull'
 alias gpoms='git pull origin master'
 alias gpom='git pull origin main'
 alias gpos='git pull origin staging'
 alias gpop='git pull origin production'
+
+#Log
+alias gl='git log'
+alias glo='git log --oneline'
 
 #Merge & Push
 alias gds='gcs && gmm && gps'
