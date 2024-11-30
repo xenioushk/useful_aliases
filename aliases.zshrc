@@ -85,6 +85,15 @@ alias cpb='composer dumpautoload -o' #Composer Build.
 alias npf='npm run format'
 alias nplc='npm run lint:css'
 alias nplj='npm run lint:js'
+
+
+#WP Cli Commands
+
+alias wpcr='wp core update'
+alias wptu='wp theme update --all'
+alias wppu='wp plugin update --all --exclude=js_composer'
+alias wpjsu='wp plugin install --force https://projects.bluewindlab.net/support/js_composer.zip'
+alias wprf='wp rewrite flush'
 #callback functions.
 
 
