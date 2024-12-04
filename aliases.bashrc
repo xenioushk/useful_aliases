@@ -4,8 +4,8 @@ alias eb="exec bash"
 alias ll="ls -la"
 
 ###DOCKER###
-alias dcu='docker-compose up -d'
-alias dcd='docker-compose down'
+alias dcu='docker compose up -d'
+alias dcd='docker compose down'
 alias dps='docker ps'
 
 ###GIT ALIASES###
