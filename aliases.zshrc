@@ -4,12 +4,14 @@ alias eb="exec bash"
 alias ll="ls -la"
 
 ###DOCKER###
-alias dcu='docker-compose up -d'
-alias dcd='docker-compose down'
+alias dcu='docker compose up -d'
+alias dcd='docker compose down'
 alias dps='docker ps'
 
 ###GIT ALIASES###
 
+alias gl='git log'
+alias glo='git log --oneline'
 alias gs='git status'
 alias ga='git add .'
 alias gb='git branch'
@@ -86,7 +88,6 @@ alias npf='npm run format'
 alias nplc='npm run lint:css'
 alias nplj='npm run lint:js'
 
-
 #WP Cli Commands
 
 alias wpcr='wp core update'
@@ -94,8 +95,9 @@ alias wptu='wp theme update --all'
 alias wppu='wp plugin update --all --exclude=js_composer'
 alias wpjsu='wp plugin install --force https://projects.bluewindlab.net/support/js_composer.zip'
 alias wprf='wp rewrite flush'
-#callback functions.
+alias wpca='wpcr && wptu && wppu'
 
+#callback functions.
 
 git_clear_cache() {
 
