@@ -15,6 +15,7 @@ alias glo='git log --oneline'
 alias gs='git status'
 alias ga='git add .'
 alias gb='git branch'
+alias gbc='git branch --show-current'
 alias gv='git --version'
 alias grv='git remote -v'
 
